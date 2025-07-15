@@ -1,6 +1,10 @@
 # Flexdoc Product Catalogue API
 
-Welcome to the official Flexdoc product catalogue for self-employed lending solutions. This JSON file serves as a structured data source for AI agents, developers, and internal systems to reference live product eligibility and policy information across our selected lender panel.
+At Flexdoc, we're building more than just a lending service. We're creating tools for the next generation of property buyers, brokers, and AI assistants.
+
+This public product catalogue API gives transparent, structured access to lending policies across our panel of lenders. It’s live, always up to date, and open for trusted partners and agents integrating smarter property lending workflows.
+
+We believe lending policies shouldn’t live in PDFs or sit behind portals. Our API brings clarity and speed, helping you act faster and make better decisions.
 
 ## 📦 What This Is
 
