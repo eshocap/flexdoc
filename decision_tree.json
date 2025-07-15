@@ -1,0 +1,145 @@
+{
+  "decision_tree": [
+    {
+      "step": 1,
+      "question": "What do you need the loan for?",
+      "field": "loan_purpose",
+      "options": [
+        {
+          "label": "Purchase",
+          "value": "purchase"
+        },
+        {
+          "label": "Refinance",
+          "value": "refinance"
+        },
+        {
+          "label": "Equity Release (Cash-out)",
+          "value": "equity release"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "question": "What type of property is involved?",
+      "field": "loan_type",
+      "options": [
+        {
+          "label": "Residential",
+          "value": "residential"
+        },
+        {
+          "label": "Commercial",
+          "value": "commercial"
+        },
+        {
+          "label": "SMSF",
+          "value": "smsf"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "question": "How will you verify your income?",
+      "field": "income_verification",
+      "options": [
+        {
+          "label": "BAS Statements",
+          "value": "bas"
+        },
+        {
+          "label": "Bank Statements",
+          "value": "bank statements"
+        },
+        {
+          "label": "Accountant Letter",
+          "value": "accountant letter"
+        },
+        {
+          "label": "Tax Returns (Full Doc)",
+          "value": "tax returns"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "question": "How long have you had your ABN?",
+      "field": "abn_length",
+      "options": [
+        {
+          "label": "Less than 6 months",
+          "value": "<6"
+        },
+        {
+          "label": "6\u201312 months",
+          "value": "6\u201312"
+        },
+        {
+          "label": "More than 12 months",
+          "value": "12+"
+        },
+        {
+          "label": "More than 24 months",
+          "value": "24+"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "question": "Is your business registered for GST?",
+      "field": "gst_required",
+      "options": [
+        {
+          "label": "Yes",
+          "value": true
+        },
+        {
+          "label": "No",
+          "value": false
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "question": "How would you describe your credit history?",
+      "field": "credit_history",
+      "options": [
+        {
+          "label": "Clear history",
+          "value": "clear"
+        },
+        {
+          "label": "Minor blemishes",
+          "value": "minor"
+        },
+        {
+          "label": "Major issues",
+          "value": "major"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "question": "What\u2019s your ideal Loan-to-Value Ratio (LVR)?",
+      "field": "lvr_limit",
+      "options": [
+        {
+          "label": "Up to 60%",
+          "value": 60
+        },
+        {
+          "label": "60\u201380%",
+          "value": 80
+        },
+        {
+          "label": "80\u201390%",
+          "value": 90
+        },
+        {
+          "label": "90%+",
+          "value": 91
+        }
+      ]
+    }
+  ]
+}
