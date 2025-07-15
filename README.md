@@ -32,8 +32,9 @@ Each product object contains:
 
 ## 🔗 Access URL
 
-Live JSON feed:  
-**https://api.flexdoc.com.au/product_catalogue.json**
+- 📦 [Product Catalogue (JSON)](https://api.flexdoc.com.au/product_catalogue.json)  
+- 🔀 [Decision Tree Logic (JSON)](https://api.flexdoc.com.au/decision_tree.json)
+
 
 ## 🔐 Licensing & Use
 
