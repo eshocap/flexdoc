@@ -40,6 +40,16 @@ Each product object contains:
 - 🔀 [Decision Tree Logic (JSON)](https://api.flexdoc.com.au/decision_tree.json)
 
 
+### API Endpoints
+
+| Endpoint                            | Description                              |
+|-------------------------------------|------------------------------------------|
+| `/lenders`                          | Returns a list of lenders in the panel   |
+| `/loan-types`                       | Lists available loan product categories  |
+| `/policies/self-employed`          | Shows self-employed lending policies     |
+| `/metadata/last-updated`           | Timestamp of last policy refresh         |
+
+
 ## 🔐 Licensing & Use
 
 This catalogue is open for read access. Use is permitted for advisory, matching, or integration purposes. Please do not modify or re-host without permission. For questions or commercial partnerships, contact us via [flexdoc.com.au](https://flexdoc.com.au).
